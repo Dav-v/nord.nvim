@@ -60,7 +60,7 @@ theme.loadSyntax = function()
 		markdownH2 = { fg = nord.nord11_gui, style = bold },
 		markdownH3 = { fg = nord.nord14_gui, style = bold },
 		Error = { fg = nord.nord11_gui, bg = nord.none, style = bold_underline }, -- any erroneous construct with bold
-		Comment = { fg = nord.nord3_gui_bright, style = italic }, -- italic comments
+		Comment = { fg = nord.nord10, style = italic }, -- italic comments
 		Conditional = { fg = nord.nord9_gui, style = italic }, -- italic if, then, else, endif, switch, etc.
 		Function = { fg = nord.nord8_gui, style = italic }, -- italic funtion names
 		Identifier = { fg = nord.nord9_gui, style = italic }, -- any variable name
